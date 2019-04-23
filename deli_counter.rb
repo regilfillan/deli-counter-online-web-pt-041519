@@ -21,5 +21,5 @@ def now_serving(katz_deli)
   if katz_deli.empty?
     puts "There is nobody waiting to be served!"
   else
-    puts "The line is currently: #{current_line}"
+    puts "Currently serving #{katz_deli.first}!"
   
