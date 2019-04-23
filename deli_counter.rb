@@ -9,3 +9,4 @@ def line(place)
   end
   puts current_line
 end
+end
