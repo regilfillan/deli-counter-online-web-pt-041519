@@ -4,6 +4,6 @@ def line(place)
     puts "The line is currently empty."
   else
     current_line= "The line is currently:"
-    place.each.with
+    place.each_with_index do |place, index|
   end
 end
