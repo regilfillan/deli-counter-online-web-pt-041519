@@ -5,6 +5,6 @@ def line(place)
   else
     current_line= "The line is currently:"
     place.each_with_index do |person, index|
-      current_line << 
+      current_line << " #{index}. #{peron},"
   end
 end
