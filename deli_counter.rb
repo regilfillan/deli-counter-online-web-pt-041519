@@ -7,4 +7,5 @@ def line(place)
     place.each_with_index do |person, index|
       current_line << " #{index}. #{peron}"
   end
+  puts current_line
 end
